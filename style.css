@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  margin-top: 2px;
+  margin-left: 25px;
+  margin-bottom: 2em;
+  border: 2px solid black;
+  border-radius: 60px;
+  padding: 0.5em;
+  background-color: #087408;
+  color: aliceblue;
+  font-size: 2em;
+}
+
+#table {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  height: 200px;
+  border: 2px solid black;
+}
+td {
+  border: 1px solid black;
+  color: black;
+  width: 5rem;
+}
+
+.correct-answer {
+  background-color: green;
+}
+
+.incorrect-answer {
+  background-color: red;
+}
+
+.numberLotto {
+  font-size: 25px;
+}
+.time-table {
+  font-size: 19px;
+  margin-bottom: 2em;
+}
+
+.red-color {
+  color: red;
+}
+
+#scoreText,
+#score-container {
+  font-weight: 100;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
